@@ -6,7 +6,7 @@ Accepted to ACCV 2018
 
 This paper presents a new hashing method to learn the compact binary codes for implementing a large-scale face image retrieval system. Since it is very diffcult to deal with the inter-class similarities (similar appearance between different persons) and intra-class variations (same person with different pose, facial expressions, illuminations) in face-related problems, we propose a new deep clustering and block hashing (DCBH) approach to alleviate these issues. The network we adopt for the feature extraction is the VGG, where we design a new loss function to learn the robust and mulit-scale facial features for addressing the above-stated problems. Specifically, we design a center-clustering loss term to minimize the distance between the image descriptors belonging to the same class. Besides, the classification errors of the image descriptors and the learned binary codes are minimized to learn the discriminative binary codes. In addition, we introduce a block hashing layer for reducing the redundancy among hash codes and the number of parameters simultaneously without loss of similarity. Extensive experiments on two large scale face image datasets demonstrate that our proposed method outperforms the state-of-the-art face image retrieval methods.
 
-<p align="center"><img src="figures/Examples.png" width="900"></p>
+<p align="center"><img src="figures/Examples.png" width="600"></p>
 
 ## Overall Architecture
 
